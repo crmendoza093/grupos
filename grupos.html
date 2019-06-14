@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="image/Iconos/Icono_grupos.ico" type="image/png">
+    <title>Grupos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_content d-flex flex-row align-items-center justify-content-start">
+            <a class="nav navbar-nav navbar-left" href="#">
+                <img src="image/Iconos/logo.png" alt="" style="width: 200px; ">
+            </a>
+
+            <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
+                <div class="header_phone d-flex flex-row align-items-center justify-content-center">
+                    <i class="fa fa-whatsapp" aria-hidden="true" style="color: #fff; font-size: xx-large"></i>
+                    <span>+57 322 222222</span>
+                </div>
+
+                <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="banner_area">
+        <div class="booking_table d_flex align-items-center">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+
+
+            <div class="container" style="padding-left: 45px; padding-right: 45px;">
+                <div class="jumbotron" style="background-color: transparent; border-color: transparent; padding-top: 250px;padding-left: 50px;padding-right: 50px;">
+                    <div class="row" style="font-size: 15px;">
+                        <div class="col-12">
+                            <ul class="list-group list-group-horizontal" style="background-color: transparent; border-color: transparent;">
+                                <li class="list-group-item" style="background-color: transparent; border-color: transparent; color: white; text-align: center; font-weight: bold;">
+                                    <img src="image/Iconos/Vuelos.png" style="width: 80%;"></img>
+                                    <span>Vuelos</span>
+                                </li>
+                                <li class="list-group-item" style="background-color: transparent; border-color: transparent; color: white; text-align: center; font-weight: bold;">
+                                    <img src="image/Iconos/Hotel.png" style="width: 80%;"></img>
+                                    <span>Hotel</span>
+                                </li>
+                                <li class="list-group-item" style="background-color: transparent; border-color: transparent; color: white; text-align: center; font-weight: bold;">
+                                    <img src="image/Iconos/Hotel_vuelo.png" style="width: 80%;"></img>
+                                    <br>
+                                    <span>Hotel + Vuelo</span>
+                                </li>
+                                <li class="list-group-item" style="background-color: transparent; border-color: transparent; color: white; text-align: center; font-weight: bold;">
+                                    <img src="image/Iconos/Autos.png" style="width: 80%;"></img>
+                                    <span>Autos</span>
+                                </li>
+                                <li class="list-group-item" style="background-color: transparent; border-color: transparent; color: white; text-align: center; font-weight: bold;">
+                                    <img src="image/Iconos/Crucero.png" style="width: 80%;"></img>
+                                    <span>Crucero</span>
+                                </li>
+                                <li class="list-group-item" style="background-color: transparent; border-color: transparent; color: white; text-align: center; font-weight: bold;">
+                                    <img src="image/Iconos/Transportes.png" style="width: 80%;"></img>
+                                    <span>Transporte</span>
+                                </li>
+                                <li class="list-group-item" style="background-color: transparent; border-color: transparent; color: white; text-align: center; font-weight: bold;">
+                                    <img src="image/Iconos/Seguros.png" style="width: 80%;"></img>
+                                    <span>Seguro</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row" style="color: black;">
+                        <div class="col-9 body_voucher">
+                            <div class="row title_voucher">
+                                <img src="image/Iconos/Vuelos.png" style="width: 30px; height: 30px;"></img>Vuelos en
+                                grupo</div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="form-group">
+                                            <label for="forOrigen">ORIGEN</label>
+                                            <select class="form-control" id="forOrigen">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="forDestino">DESTINO</label>
+                                            <select class="form-control" id="forDestino">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="forTGrupo">TIPO DE GRUPO</label>
+                                            <select class="form-control" id="forTGrupo">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="form-group">
+                                            <label for="forFIda">FECHA IDA</label>
+                                            <select class="form-control" id="forFIda">
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="forFRegreso">FECHA REGRESO</label>
+                                            <select class="form-control" id="forFRegreso">
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="forFRegreso">ADULTOS</label>
+                                            <select class="form-control" id="forFRegreso">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="form-group">
+                                            <label for="forFRegreso">JORNADA</label>
+                                            <select class="form-control" id="forFRegreso">
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="forFRegreso">JORNADA</label>
+                                            <select class="form-control" id="forFRegreso">
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="forFRegreso">ES AGENCIA</label>
+                                            <select class="form-control" id="forFRegreso">
+                                                <option>SI</option>
+                                                <option>NO</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="form-group">
+                                            <label>COMENTARIOS</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row footer_voucher">
+                            </div>
+                        </div>
+
+                        <div class="col-3 body_voucher" style="border-left: dashed">
+                            <div class="row title_voucher">
+                                Información de contacto</div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label>NOMBRES Y APELLIDOS</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>EMAIL</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>NÚMERO DE CONTACTO</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>cotizar</label>
+                                            <input type="button" class="form-control btn btn-primary" text="as"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row footer_voucher">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-top: 10%;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/Slide_Superior_1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/Slide_superior_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/Slide_Superior_3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-top: 10%;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/Slide_Inferior_1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/Slide_Inferior_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/Slide_Inferior_3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
