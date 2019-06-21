@@ -505,7 +505,7 @@ button:focus {
 }
 
     .banner_area .bg-parallax {
-        background: url("../image/Slide_Inferior3.jpg") no-repeat scroll center 0/cover;
+        background: url("../images/Slide_Inferior_3.jpg") no-repeat scroll center 0;
         opacity: 0.50;
     }
 

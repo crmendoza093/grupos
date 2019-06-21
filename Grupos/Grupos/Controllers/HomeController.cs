@@ -185,6 +185,10 @@ namespace Grupos.Controllers
 
             return View();
         }
+        public ActionResult Grupos()
+        {
+            return View();
+        }
         public int consecutiveNumber()
         {
             var consecutive = 0;
